@@ -12,7 +12,7 @@ function App() {
   //   console.log('Checkbox has been checked ✅');
   // }
 
-  // this is what will be redered on the page
+  // this is what will be rendered on the page
   return (
     <div className="App">
       <form action="">
