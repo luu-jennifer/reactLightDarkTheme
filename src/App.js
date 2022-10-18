@@ -6,7 +6,7 @@ function App() {
     <div className="App">
       <form action="">
         <fieldset>
-          <legend>Choose your them:</legend>
+          <legend>Choose your theme:</legend>
           
           <label htmlFor="theme"></label>
           <input type="checkbox" name="theme" id="theme" />
