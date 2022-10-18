@@ -1,6 +1,5 @@
 .App {
   text-align: center;
-  min-height: 100vh;
 }
 
 .App-logo {
@@ -31,7 +30,8 @@
 
 .dark-theme {
   background-color: #282c34;
-  color: #fff;
+  color: aliceblue;
+  min-height: 100vh;
 }
 
 @keyframes App-logo-spin {
