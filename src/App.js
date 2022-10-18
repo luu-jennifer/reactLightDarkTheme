@@ -1,8 +1,8 @@
 // 'theme' is just a variable we created.
 // set'our variable name we created'
 
-
 import './App.css';
+import AccountPage from './AccountPage';
 
 // in order to track state - AKA any information that is changing on the page - we need to import the useState Hook from the react library
   // a Hook is just a function!
@@ -104,6 +104,11 @@ function App() {
           <input type="checkbox" id="theme" value="light" name="light" onClick={ handleClick } />
         </fieldset>
       </form>
+
+
+    {/*render your AccountPage component*/}
+    
+    <AccountPage />
     </div>
   );
 }
